@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JS demo</title>
+    <!-- my CSS  -->
+    <link href="style.css" rel="stylesheet" />
+
+    <!-- javascript -->
+    <script type="text/javascript">
+      //javascript goes here inside script tags
+      //document.write("Hi"); //write direct to webpage
+      document.write('<h1>Hello World!</h1>'); //using HTML tags
+
+      //Sets lastName = whatever the user inputs into the prompt
+      let lastName = prompt('Enter Your Last Name');
+
+      //Checking to see if lastName has been assigned a value
+      if (lastName) {
+        //If lastName has a value alert the value
+        alert(`Your last name is ${lastName}`);
+      } else {
+        //If lastName does not have a value then tell the user
+        alert('You failed to enter your last name');
+      }
+
+      //this is a variable declare and value assigned
+      let name = 'Jo';
+      //Pritns both name and lastName variables into the html
+      document.write(`Hi ${name} ${lastName} \n how are you? `);
+
+      /*
+				Three JavaScript Examples Used
+				1. Use of prompt
+				2. use of if else stamtent 
+				3. use of alert
+			*/
+    </script>
+  </head>
+  <body>
+    <p>my paragraph</p>
+    <a href="page2.html">Page 2</a>
+  </body>
+</html>
